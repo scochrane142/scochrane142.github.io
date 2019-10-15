@@ -9,8 +9,8 @@
         <!--Responsive View Meta-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
          <!-- Latest compiled and minified CSS -->
-         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
          <link rel="stylesheet" href="styles.css">
     </head>
 
@@ -27,11 +27,11 @@
                       <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Us</a>
+                      <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <!--Dropdown menu for Product?-->
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle fade-in" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
                       <div class="dropdown-menu" aria-labelledby="dropdown01">
                         <a class="dropdown-item" href="#">Trainings</a>
                         <a class="dropdown-item" href="#">Textbooks</a>
@@ -40,7 +40,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Access</a>
                     </li>
-                </ul> <!--/Navbar items-->
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="btn btn-primary" href="#" role="button"><span class="glyphicon glyphicon-user"></span> Login/Sign Up
+                      </a>
+                    </li>
+                  </ul>
             </div>
         </nav> <!-- /Navigation bar-->
 
@@ -50,48 +56,22 @@
             <div class="jumbotron">
               <div class="container">
                 <h1 class="display-3">Cochrane's Comet</h1>
-                <p></p>
-                <p><a class="btn btn-primary btn-lg" href="GTKM/index.html" role="button">Learn more about Us &raquo;</a></p>
+                <p id="main_page_display">Innovative Power Plant Operator Training and Certification Courses</p>
+                <p><a class="btn btn-primary btn-lg" href="about.html" role="button">Learn more about Us &raquo;</a></p>
               </div>
             </div>
             <!-- /Jumbotron-->
       
             <!--Container for quick links to various pages-->
             <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <h2>CS 160</h2>
-                  <p>A quick link to my Computer Science 160 page!</p>
-                  <p><a class="btn btn-primary" href="CS160/index.html" role="button">To CS 160 Landing &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                  <h2>CS 161</h2>
-                  <p>A quick link to my Computer Science 161 page!</p>
-                  <p><a class="btn btn-primary" href="CS161/index.html" role="button">To CS 161 Landing &raquo;</a></p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                  <h2>Python Projects</h2>
-                  <p>Click below to see my python projects, big and small. </p>
-                  <p><a class="btn btn-secondary" href="homework/python_projects/index.html" role="button">To Python Projects &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                  <h2>Scratch Projects</h2>
-                  <p>Click below to see my projects built on Scratch.mit.edu </p>
-                  <p><a class="btn btn-secondary" href="homework/scratch_projects/index.html" role="button">To Scratch Projects &raquo;</a></p>
-                </div>
-                <div class="col-md-4">
-                  <h2>Java Projects</h2>
-                  <p>Click below to see my projects built in Java </p>
-                  <p><a class="btn btn-secondary" href="CS161/projects/java/index.html" role="button">To Java Projects &raquo;</a></p>
-                </div>
-              </div>
-              <hr>
+              
             </div> 
             <!-- /container -->
             
           </main>
+          <footer class="container" style="text-align:center; font-family:Georgia, 'Times New Roman', Times, serif;">
+            <p>&copy; Cochrane's Comet 2019</p>
+          </footer>
       <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->

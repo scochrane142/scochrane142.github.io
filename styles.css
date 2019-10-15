@@ -1,6 +1,3 @@
-h1{
-    color: #ffffff;
-}
 #cometLogo {
     max-width:50px;
     max-height:50px;
@@ -8,7 +5,14 @@ h1{
 }
 .jumbotron{
     padding-top: 7.5rem;
-    background: url('Pictures/shuttle.png') no-repeat center center;
+    background: url('pictures/shuttle.png') no-repeat center center fixed;
     background-size: cover;
     min-height: 500px;
+    text-align: right;
+    color:#ffffff;
+}
+#main_page_display{
+    font-size: 15pt;
+    padding-top: 2.5rem;
+    padding-bottom: 7rem;
 }
