@@ -1,0 +1,14 @@
+h1{
+    color: #ffffff;
+}
+#cometLogo {
+    max-width:50px;
+    max-height:50px;
+    rotate: 180;
+}
+.jumbotron{
+    padding-top: 7.5rem;
+    background: url('Pictures/shuttle.png') no-repeat center center;
+    background-size: cover;
+    min-height: 500px;
+}
